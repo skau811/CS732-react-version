@@ -1,0 +1,50 @@
+
+h2 {
+    font-weight: bold;
+}
+
+.cart {
+    position: sticky;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: rgb(253, 220, 225);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 4px;
+}
+
+.total {
+    align-self: flex-end;
+}
+
+.total strong {
+    font-weight: bold;
+}
+
+span strong {
+    font-weight: bold;
+}
+button{
+    padding: 8px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(2, 2, 135);
+    cursor: pointer;
+    
+}
